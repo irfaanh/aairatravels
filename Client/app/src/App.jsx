@@ -1,6 +1,6 @@
 import Router from "./Router/Router"
 import './App.css'
-import WhatsAppIcon from "./Pages/UserPage/WhatsAppIcon.Jsx"
+import WhatsAppIcon from "./Pages/UserPage/WhatsAppIcon.jsx"
 
 function App() {
 
