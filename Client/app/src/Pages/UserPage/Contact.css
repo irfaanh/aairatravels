@@ -1,0 +1,84 @@
+.bottom-contact {
+    background-color: black;
+    color: #b58f51;
+    padding: 50px 20px;
+    text-align: center;
+    border: 1px solid #b58f51;
+  }
+  
+  .contact-heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 12px;
+    background-color: #1e1e1e;
+    border: 1px solid #b58f51;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    resize: none;
+  }
+  
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: #999;
+  }
+  
+  .contact-btn {
+    background-color: transparent;
+    color: #b58f51;
+    border: 1px solid #b58f51;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .contact-btn:hover {
+    background-color: #b58f51;
+    color: black;
+  }
+  
+  .map-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    height: auto;
+    aspect-ratio: 1 / 1; /* maintains square shape similar to form height */
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  

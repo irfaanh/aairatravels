@@ -1,0 +1,35 @@
+.logoimg{
+    height: 120px;
+    width: 120px;
+}
+@media (max-width: 768px) {
+    .logoimg{
+        height: 100px;
+        width: 100px;
+    }
+}
+.navlink{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-weight: 500;
+}
+.nav-link{
+    color: #b58f51;
+}
+.nav-link:hover{
+    color: white;
+}
+.custom-toggler .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 4px auto;
+    background-color: #b58f51;
+    transition: all 0.3s ease-in-out;
+}
+.container-fluid {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
