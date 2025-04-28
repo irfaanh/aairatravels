@@ -4,7 +4,6 @@ import UserHome from '../Route/UserHome'
 import ServicePage from '../Route/ServicePage'
 import PackagePage from '../Route/PakagePage'
 import ContactSection from '../Route/ContactSection'
-import WhatsAppIcon from '../Pages/UserPage/WhatsAppIcon.Jsx'
 
 const Router = () => {
   return (
