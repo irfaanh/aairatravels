@@ -44,9 +44,9 @@ const UserNav = () => {
               <li className="nav-item">
                 <a className="nav-link" href="/allservices">Services</a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="">About</a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="/contact">Contact</a>
               </li>

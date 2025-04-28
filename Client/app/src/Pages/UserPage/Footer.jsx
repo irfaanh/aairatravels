@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="footer-socials mt-3">
             <a href="https://www.instagram.com/aairatravels/" target="_blank" rel="noreferrer"><FaInstagram /></a>
             <a href="#"><FaFacebook /></a>
-            <a href="#"><FaSquareXTwitter /></a>
+            {/* <a href="#"><FaSquareXTwitter /></a> */}
           </div>
         </div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
             <li><a href="#home">Home</a></li>
             <li><a href="/packages">Packages</a></li>
             <li><a href="/allservices">Services</a></li>
-            <li><a href="#">About</a></li>
+            {/* <li><a href="#">About</a></li> */}
             <li><a href="/contact">Contact</a></li>
           </ul>
         </div>

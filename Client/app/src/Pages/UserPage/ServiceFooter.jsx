@@ -32,7 +32,7 @@ const ServiceFooter = () => {
           <div className="footer-socials">
             <span><a href="https://www.instagram.com/aairatravels/"><FaInstagram /></a></span>
             <span><a href=""><FaFacebook /></a></span>
-            <span><a href=""><FaSquareXTwitter /></a></span>
+            {/* <span><a href=""><FaSquareXTwitter /></a></span> */}
           </div>
         </div>
       </div>

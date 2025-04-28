@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="col-lg-6 text-md-center text-sm-center">
           <img
             className="center_img mw-100"
-            src="/images/aero.gif"
+            src="/images/aero.png"
             alt="heroimg"
           />
         </div>
