@@ -73,6 +73,28 @@ html{
     border-radius: 5px;
     padding: 10px 20px;
     color: #b58f51;
+    overflow: hidden;
+    transition: color 0.5s ease;
+    z-index: 1;
+    position: relative;
+  }
+  .all-services::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #b58f51;
+  z-index: -1;
+  transition: width 0.5s ease;
+  }
+  .all-services:hover{
+    background-color: #b58f51;
+    color: black;
+  }
+  .all-services:hover::before {
+  width: 100%;
   }
 
 
@@ -92,10 +114,7 @@ html{
     padding: 10px 20px;
     border-radius: 5px;
   }
-  .servicebtn:hover{
-    background-color: #b58f51;
-    color: black;
-  }
+
   .packagebtn{
     background-color: #b58f51;
     border: #b58f51;
@@ -106,6 +125,28 @@ html{
     border: 2px solid #b58f51;
     background-color: black;
     color: #b58f51;
+    overflow: hidden;
+    transition: color 0.5s ease;
+    z-index: 1;
+    position: relative;
+  }
+  .learnmore::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #b58f51;
+  z-index: -1;
+  transition: width 0.5s ease;
+  }
+  .learnmore:hover{
+    background-color: #b58f51;
+    color: black;
+  }
+  .learnmore:hover::before {
+  width: 100%;
   }
 
 
