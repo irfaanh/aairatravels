@@ -19,12 +19,15 @@ const TopDestinations = () => {
         <p>Let's Explore with us</p>
       </div>
       <div className="gallery">
-        {destinations.map((dest, index) => (
+        {destinations.map((dest, index) => (  
           <div
             key={index}
             className={`gallery-item ${index === 0  ? 'large' : ''}`}
           >
-            <h4>{dest.name}</h4>
+
+            <div className='overlay'>
+              <h4>{dest.name}</h4>
+            </div>
             <img src={dest.image} alt={dest.name} />
           </div>
         ))}

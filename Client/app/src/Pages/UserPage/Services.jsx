@@ -15,7 +15,7 @@ const Services = () => {
         </div>
 
         {/* Responsive row for cards */}
-        <div className='card-main d-flex justify-content-center flex-wrap w-75 mt-2 p-4'>
+        <div className='card-main d-flex justify-content-center flex-wrap flex-lg-nowrap w-auto mt-2 p-4'>
 
             <a href="#travelpackage" className='col-12 col-sm-6 col-md-4 d-flex justify-content-center text-decoration-none mb-4'>
             <div className='service-card position-relative text-center'>
