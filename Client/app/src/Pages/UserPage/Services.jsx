@@ -61,12 +61,12 @@ const Services = () => {
             <div className='d-flex flex-column' style={{gap:'100px'}}>
 
                 {/* Section 1 */}
-                <div id='travelpackage' className='row align-items-center'>
+                <div id='travelpackage' className='service-bottumcard row align-items-center'>
                 <div className='col-md-6 mb-4 mb-md-0'>
                     <img className="img-fluid rounded serviceimg" src="/images/travelpackage.jpg" alt="Travel Package" />
                 </div>
                 <div className='col-md-6'>
-                    <h2 className="service_head mb-3">Where do you want to go? Our travel packages will take you there.</h2>
+                <h2 className="service_head mb-3">Where do you want to go? Our travel packages will take you there.</h2>
                     <p className='service_para'>
                     Each package is built to give you a complete and seamless experience.
                     We handle the planning so you can focus on making memories.
@@ -79,7 +79,7 @@ const Services = () => {
                 </div>
 
                 {/* Section 2 */}
-                <div id='flightticket' className='row align-items-center flex-md-row-reverse'>
+                <div id='flightticket' className='service-bottumcard row align-items-center flex-md-row-reverse'>
                 <div className='col-md-6 mb-4 mb-md-0'>
                     <img className="img-fluid rounded serviceimg" src="/images/ticketservices.jpg" alt="Ticket Services" />
                 </div>
@@ -97,7 +97,7 @@ const Services = () => {
                 </div>
 
                 {/* Section 3 */}
-                <div id='visaservice' className='row align-items-center'>
+                <div id='visaservice' className='service-bottumcard row align-items-center'>
                 <div className='col-md-6 mb-4 mb-md-0'>
                     <img className="img-fluid rounded serviceimg" src="/images/visaservices.jpg" alt="Visa Services" />
                 </div>
