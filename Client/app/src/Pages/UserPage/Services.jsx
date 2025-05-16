@@ -17,7 +17,14 @@ const Services = () => {
         {/* Responsive row for cards */}
         <div className='card-main d-flex justify-content-center flex-wrap flex-lg-nowrap w-auto mt-2 p-4 gap-5'>
 
-            <a href="#travelpackage" className='col-12 col-sm-6 col-md-4 d-flex justify-content-center text-decoration-none mb-4'>
+            <div
+            onClick={() => {
+                const el = document.getElementById('travelpackage')
+                if(el){
+                    el.scrollIntoView({behavior:'smooth',block:'center'})
+                }
+            }}
+             className='col-12 col-sm-6 col-md-4 d-flex justify-content-center text-decoration-none mb-4'>
             <div className='service-card position-relative text-center'>
                 <div className='icon-wrapper position-absolute top-0 start-50 translate-middle'>
                 <MdCardTravel className='service-icon' />
@@ -26,9 +33,15 @@ const Services = () => {
                 <h3 className='cardtext'>Travel Packages</h3>
                 </div>
             </div>
-            </a>
+            </div>
 
-            <a href="#flightticket" className='col-12 col-sm-6 col-md-4 d-flex justify-content-center text-decoration-none mb-4'>
+            <div onClick={() => {
+                const el = document.getElementById('flightticket')
+                if(el){
+                    el.scrollIntoView({behavior:'smooth',block:'center'})
+                }
+            }}
+            className='col-12 col-sm-6 col-md-4 d-flex justify-content-center text-decoration-none mb-4'>
             <div className='service-card position-relative text-center'>
                 <div className='icon-wrapper position-absolute top-0 start-50 translate-middle'>
                 <IoTicketOutline className='service-icon' />
@@ -37,9 +50,16 @@ const Services = () => {
                 <h3 className='cardtext'>Flight Tickets</h3>
                 </div>
             </div>
-            </a>
+            </div>
 
-            <a href="#visaservice" className='col-12 col-sm-6 col-md-4 d-flex justify-content-center text-decoration-none mb-4'>
+            <div 
+            onClick={() => {
+                const el = document.getElementById('visaservice')
+                if(el){
+                    el.scrollIntoView({behavior:'smooth',block:'center'})
+                }
+            }}
+             className='col-12 col-sm-6 col-md-4 d-flex justify-content-center text-decoration-none mb-4'>
             <div className='service-card position-relative text-center'>
                 <div className='icon-wrapper position-absolute top-0 start-50 translate-middle'>
                 <IoMdGlobe className='service-icon' />
@@ -48,7 +68,7 @@ const Services = () => {
                 <h3 className='cardtext'>Visa Services</h3>
                 </div>
             </div>
-            </a>
+            </div>
         </div>
 
       </div>
